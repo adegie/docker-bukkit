@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://towny.palmergames.com/xmlrpc.php" />
+<title>Release Version: Towny Advanced 0.92.0.0 [1.11-1.12.2] - Towny on Palmergames.com</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v5.3.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://towny.palmergames.com/release-version-towny-advanced-0-92-0-0-1-11-1-12-2/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Release Version: Towny Advanced 0.92.0.0 [1.11-1.12.2] - Towny on Palmergames.com" />
+<meta property="og:description" content="Towny Advanced 0.92.0.0 for Minecraft 1.11-1.12 servers Contains: Towny 0.92.0.0 TownyChat 0.49 TownyNameUpdater 1.0 Questioner 0.6 New in Towny 0.92.0.0 Required Config changes for existing installs: under town_mob_removal_entities: add SkeletonHorse,ZombieHorse, they are not considered Monsters and if you want dont them spawning or walking into town they must be added &#8230;" />
+<meta property="og:url" content="http://towny.palmergames.com/release-version-towny-advanced-0-92-0-0-1-11-1-12-2/" />
+<meta property="og:site_name" content="Towny on Palmergames.com" />
+<meta property="article:section" content="Towny Downloads" />
+<meta property="article:published_time" content="2017-12-03T18:29:09+00:00" />
+<meta property="article:modified_time" content="2017-12-04T12:15:59+00:00" />
+<meta property="og:updated_time" content="2017-12-04T12:15:59+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Towny Advanced 0.92.0.0 for Minecraft 1.11-1.12 servers Contains: Towny 0.92.0.0 TownyChat 0.49 TownyNameUpdater 1.0 Questioner 0.6 New in Towny 0.92.0.0 Required Config changes for existing installs: under town_mob_removal_entities: add SkeletonHorse,ZombieHorse, they are not considered Monsters and if you want dont them spawning or walking into town they must be added &#8230;" />
+<meta name="twitter:title" content="Release Version: Towny Advanced 0.92.0.0 [1.11-1.12.2] - Towny on Palmergames.com" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/towny.palmergames.com\/","name":"Towny on Palmergames.com","potentialAction":{"@type":"SearchAction","target":"http:\/\/towny.palmergames.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Towny on Palmergames.com &raquo; Feed" href="http://towny.palmergames.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Towny on Palmergames.com &raquo; Comments Feed" href="http://towny.palmergames.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Towny on Palmergames.com &raquo; Release Version: Towny Advanced 0.92.0.0 [1.11-1.12.2] Comments Feed" href="http://towny.palmergames.com/release-version-towny-advanced-0-92-0-0-1-11-1-12-2/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/towny.palmergames.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='font-awesome-css'  href='http://towny.palmergames.com/wp-content/plugins/download-manager/assets/font-awesome/css/font-awesome.min.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdm-bootstrap-css'  href='http://towny.palmergames.com/wp-content/plugins/download-manager/assets/bootstrap/css/bootstrap.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdm-front-css'  href='http://towny.palmergames.com/wp-content/plugins/download-manager/assets/css/front.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pinboard-web-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic|Oswald:300,300italic,regular,italic,600,600italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='pinboard-css'  href='http://towny.palmergames.com/wp-content/themes/pinboard/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://towny.palmergames.com/wp-content/themes/pinboard/styles/colorbox.css' type='text/css' media='all' />
+	<!--[if lt IE 9]>
+	<script src="http://towny.palmergames.com/wp-content/themes/pinboard/scripts/html5.js" type="text/javascript"></script>
+	<![endif]-->
+<script type='text/javascript' src='http://towny.palmergames.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-content/plugins/download-manager/assets/bootstrap/js/bootstrap.min.js?ver=4.8.4'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-content/plugins/download-manager/assets/js/front.js?ver=4.8.4'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-content/plugins/download-manager/assets/js/chosen.jquery.min.js?ver=4.8.4'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-content/themes/pinboard/scripts/ios-orientationchange-fix.js'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-content/themes/pinboard/scripts/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-content/themes/pinboard/scripts/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-content/themes/pinboard/scripts/jquery.colorbox-min.js'></script>
+<meta name="generator" content="WordPress Download Manager 2.9.56" />
+<link rel='https://api.w.org/' href='http://towny.palmergames.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://towny.palmergames.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://towny.palmergames.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://towny.palmergames.com/?p=1070' />
+<link rel="alternate" type="application/json+oembed" href="http://towny.palmergames.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ftowny.palmergames.com%2Frelease-version-towny-advanced-0-92-0-0-1-11-1-12-2%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://towny.palmergames.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ftowny.palmergames.com%2Frelease-version-towny-advanced-0-92-0-0-1-11-1-12-2%2F&#038;format=xml" />
+
+        <script>
+            var wpdm_site_url = 'http://towny.palmergames.com/';
+            var wpdm_home_url = 'http://towny.palmergames.com/';
+            var ajax_url = 'http://towny.palmergames.com/wp-admin/admin-ajax.php';
+            var wpdm_ajax_url = 'http://towny.palmergames.com/wp-admin/admin-ajax.php';
+            var wpdm_ajax_popup = '0';
+        </script>
+
+
+        <script>
+/* <![CDATA[ */
+	jQuery(window).load(function() {
+			});
+	jQuery(document).ready(function($) {
+		$('#access .menu > li > a').each(function() {
+			var title = $(this).attr('title');
+			if(typeof title !== 'undefined' && title !== false) {
+				$(this).append('<br /> <span>'+title+'</span>');
+				$(this).removeAttr('title');
+			}
+		});
+		function pinboard_move_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-container', container).before(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-container', container).before(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-container', container).before(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-container', container).after(meta);
+			}
+		}
+		function pinboard_restore_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-header', container).after(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-header', container).after(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-header', container).after(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-header', container).append(meta);
+				else
+					$('.entry-header', container).html(meta.html());
+			}
+		}
+		if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+			// Viewport is greater than tablet: portrait
+		} else {
+			$('#content .hentry').each(function() {
+				pinboard_move_elements($(this));
+			});
+		}
+		$(window).resize(function() {
+			if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+									$('.page-template-template-full-width-php #content .hentry, .page-template-template-blog-full-width-php #content .hentry, .page-template-template-blog-four-col-php #content .hentry').each(function() {
+						pinboard_restore_elements($(this));
+					});
+							} else {
+				$('#content .hentry').each(function() {
+					pinboard_move_elements($(this));
+				});
+			}
+			if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+				var maxh = 0;
+				$('#access .menu > li > a').each(function() {
+					if(parseInt($(this).css('height'))>maxh) {
+						maxh = parseInt($(this).css('height'));
+					}
+				});
+				$('#access .menu > li > a').css('height', maxh);
+			} else {
+				$('#access .menu > li > a').css('height', 'auto');
+			}
+		});
+		if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+			var maxh = 0;
+			$('#access .menu > li > a').each(function() {
+				var title = $(this).attr('title');
+				if(typeof title !== 'undefined' && title !== false) {
+					$(this).append('<br /> <span>'+title+'</span>');
+					$(this).removeAttr('title');
+				}
+				if(parseInt($(this).css('height'))>maxh) {
+					maxh = parseInt($(this).css('height'));
+				}
+			});
+			$('#access .menu > li > a').css('height', maxh);
+							$('#access li').mouseenter(function() {
+					$(this).children('ul').css('display', 'none').stop(true, true).fadeIn(250).css('display', 'block').children('ul').css('display', 'none');
+				});
+				$('#access li').mouseleave(function() {
+					$(this).children('ul').stop(true, true).fadeOut(250).css('display', 'block');
+				});
+					} else {
+			$('#access li').each(function() {
+				if($(this).children('ul').length)
+					$(this).append('<span class="drop-down-toggle"><span class="drop-down-arrow"></span></span>');
+			});
+			$('.drop-down-toggle').click(function() {
+				$(this).parent().children('ul').slideToggle(250);
+			});
+		}
+				$('.entry-attachment audio, .entry-attachment video').mediaelementplayer({
+			videoWidth: '100%',
+			videoHeight: '100%',
+			audioWidth: '100%',
+			alwaysShowControls: true,
+			features: ['playpause','progress','tracks','volume'],
+			videoVolume: 'horizontal'
+		});
+		$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe[src*='wordpress.tv'], iframe[src*='www.dailymotion.com'], iframe[src*='blip.tv'], iframe[src*='www.viddler.com']"});
+	});
+	jQuery(window).load(function() {
+					jQuery('.entry-content a[href$=".jpg"],.entry-content a[href$=".jpeg"],.entry-content a[href$=".png"],.entry-content a[href$=".gif"],a.colorbox').colorbox({
+				maxWidth: '100%',
+				maxHeight: '100%',
+			});
+			});
+/* ]]> */
+</script>
+<style type="text/css">
+			#header input#s {
+			width:168px;
+			box-shadow:inset 1px 1px 5px 1px rgba(0, 0, 0, .1);
+			text-indent: 0;
+		}
+					@media screen and (max-width: 760px) {
+			#sidebar {
+				display: none;
+			}
+		}
+				@media screen and (max-width: 760px) {
+			#footer-area {
+				display: none;
+			}
+		}
+																																				.widget-title {
+			color:#000000;
+		}
+							</style>
+<style type="text/css">
+	#site-title a,
+	#site-description {
+		color:#333;
+	}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("http://towny.palmergames.com/wp-content/themes/pinboard/images/bg.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+</head>
+
+<body class="post-template-default single single-post postid-1070 single-format-standard custom-background page-template-template-sidebar-content-php">
+	<div id="wrapper">
+		<header id="header">
+			<div id="site-title">
+								<a class="home" href="http://towny.palmergames.com/" rel="home">Towny on Palmergames.com</a>
+			</div>
+							<div id="site-description">The home of Towny Advanced and many other plugins</div>
+							<form role="search" method="get" id="searchform" action="http://towny.palmergames.com/" >
+	<input type="text" value="" placeholder="Search this website&#8230;" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+</form>				<div class="clear"></div>
+			<nav id="access">
+				<a class="nav-show" href="#access">Show Navigation</a>
+				<a class="nav-hide" href="#nogo">Hide Navigation</a>
+				<div class="menu"><ul>
+<li class="page_item page-item-116 page_item_has_children"><a href="http://towny.palmergames.com/">Towny</a>
+<ul class='children'>
+	<li class="page_item page-item-120"><a href="http://towny.palmergames.com/towny/towny-install-guide/">Towny Install Guide</a></li>
+	<li class="page_item page-item-126"><a href="http://towny.palmergames.com/towny/towny-upgrade-guide/">Towny Upgrade Guide</a></li>
+	<li class="page_item page-item-757"><a href="http://towny.palmergames.com/towny/757-2/">How Towny Works</a></li>
+	<li class="page_item page-item-131"><a href="http://towny.palmergames.com/towny/towny-commands/">Towny Commands</a></li>
+	<li class="page_item page-item-134"><a href="http://towny.palmergames.com/towny/towny-permission-nodes/">Towny Permission Nodes</a></li>
+	<li class="page_item page-item-771"><a href="http://towny.palmergames.com/towny/towny-config-yml/">Towny Config.yml</a></li>
+	<li class="page_item page-item-775"><a href="http://towny.palmergames.com/towny/towny-townyperms-yml/">Towny TownyPerms.yml</a></li>
+	<li class="page_item page-item-778"><a href="http://towny.palmergames.com/towny/towny-chatconfig-yml/">Towny ChatConfig.yml</a></li>
+	<li class="page_item page-item-504"><a href="http://towny.palmergames.com/towny/plugins-compatible-towny/">Plugins Compatible with Towny</a></li>
+	<li class="page_item page-item-162"><a href="http://towny.palmergames.com/towny/questioner/">Questioner</a></li>
+	<li class="page_item page-item-471"><a href="http://towny.palmergames.com/towny/townychat/">TownyChat</a></li>
+	<li class="page_item page-item-576"><a href="http://towny.palmergames.com/towny/townychangelog/">Towny Changelog</a></li>
+	<li class="page_item page-item-580"><a href="http://towny.palmergames.com/towny/towny-chat-changelog/">Towny Chat Changelog</a></li>
+</ul>
+</li>
+<li class="page_item page-item-108"><a href="http://towny.palmergames.com/group-manager/">Group Manager</a></li>
+<li class="page_item page-item-208"><a href="http://towny.palmergames.com/antix/">Anti X</a></li>
+<li class="page_item page-item-453"><a href="http://towny.palmergames.com/iconomy-5-05/">iConomy 5.05</a></li>
+<li class="page_item page-item-528"><a href="http://towny.palmergames.com/huntplayer/">HuntPlayer</a></li>
+</ul></div>
+				<div class="clear"></div>
+			</nav><!-- #access -->
+		</header><!-- #header -->	<div id="container">
+		<section id="content" class="column threefourthcol">
+							<article class="post-1070 post type-post status-publish format-standard hentry category-towny-download category-towny-release-download column onecol" id="post-1070">
+					<div class="entry">
+						<header class="entry-header">
+							<h1 class="entry-title">Release Version: Towny Advanced 0.92.0.0 [1.11-1.12.2]</h1>
+									<aside class="entry-meta">
+							<span class="entry-author-link"><a href="http://towny.palmergames.com/author/llmdl/" title="Posts by Llmdl" rel="author">Llmdl</a></span>
+									<span class="entry-date">3rd December 2017</span>
+												<span class="entry-category"><a href="http://towny.palmergames.com/category/towny-download/" rel="category tag">Towny Downloads</a>, <a href="http://towny.palmergames.com/category/towny-download/towny-release-download/" rel="category tag">Towny Release Download</a></span>
+																		<div class="clear"></div>
+		</aside><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+						<div class="entry-content">
+														<p><strong>Towny Advanced 0.92.0.0 for Minecraft 1.11-1.12 servers</strong></p>
+<p>Contains:</p>
+<ul>
+<li>Towny 0.92.0.0</li>
+<li>TownyChat 0.49</li>
+<li>TownyNameUpdater 1.0</li>
+<li>Questioner 0.6</li>
+</ul>
+<h1><strong>New in Towny 0.92.0.0</strong></h1>
+<p><strong>Required Config changes for existing installs:</strong></p>
+<ul>
+<li>under town_mob_removal_entities: add SkeletonHorse,ZombieHorse,
+<ul>
+<li>they are not considered Monsters and if you want dont them spawning or walking into town they must be added to the config.</li>
+<li>new installs will have them added by default.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>under protection.switch_ids: add WHITE_SHULKER_BOX,ORANGE_SHULKER_BOX,MAGENTA_SHULKER_BOX,LIGHT_BLUE_SHULKER_BOX,YELLOW_SHULKER_BOX,LIME_SHULKER_BOX,PINK_SHULKER_BOX,GRAY_SHULKER_BOX,SILVER_SHULKER_BOX,CYAN_SHULKER_BOX,PURPLE_SHULKER_BOX,BLUE_SHULKER_BOX,BROWN_SHULKER_BOX,GREEN_SHULKER_BOX,RED_SHULKER_BOX,BLACK_SHULKER_BOX
+<ul>
+<li>this will add shulker boxes under the protection of the switch flag.</li>
+<li>new installs will have them added by default.</li>
+</ul>
+</li>
+<li>under protection.item_use_ids: add SKULL_ITEM
+<ul>
+<li>protects playerheads</li>
+</ul>
+</li>
+</ul>
+<p><strong>New commands:</strong></p>
+<ul>
+<li>New Command: /town plots {townname}
+<ul>
+<li>Screen displays number of Town-owned plots, number of claimed/available claims.</li>
+<li>Displays numbers of different plot types (ex: farms, jails)</li>
+<li>Displays detailed stats on Embassies, Shops and Residential plots which includes:
+<ul>
+<li>Number owned by residents,</li>
+<li>Number currently for sale,</li>
+<li>Number in town,</li>
+<li>Estimated revenue from different types of plot tax.</li>
+</ul>
+</li>
+<li>Optional {towname} to look up plot type information for other towns.</li>
+<li>Command uses towny.command.town.plots permission node.</li>
+</ul>
+</li>
+<li>New Command: /town reslist {townname}
+<ul>
+<li>Previously you could only reslist your own town, now you can view the full resident list of any town.</li>
+</ul>
+</li>
+<li>New Command: /townyadmin set title [name] [title]
+<ul>
+<li>Ability for admins to edit titles&#8217; of anyone on the server,</li>
+<li>bypasses nation-requirement.</li>
+</ul>
+</li>
+<li>New Command: /townyadmin set surname [name] [surname]
+<ul>
+<li>Ability for admins to edit surnames&#8217; of anyone on the server,</li>
+<li>bypasses nation-requirement.</li>
+</ul>
+</li>
+<li>New Command: /townyadmin town [townname] rank [add/remove] [name] [rank]
+<ul>
+<li>Allows an admin to give a resident a rank.</li>
+<li>Still requires the resident to be a member of town of course.</li>
+</ul>
+</li>
+<li>New Command: /town say [message]
+<ul>
+<li>Broadcasts message to your town, prefixed with the town name.</li>
+<li>Requires permission node towny.command.town.say</li>
+</ul>
+</li>
+<li>New Command: /nation say [message]
+<ul>
+<li>Broadcasts message to your nation, prefixed with the nation name.</li>
+<li>Requires permission node towny.command.nation.say</li>
+</ul>
+</li>
+<li>New Command: /town outlaw [add/remove] [name]
+<ul>
+<li>Requires permission node towny.command.town.outlaw</li>
+<li>See Added section below for more information about outlaws.</li>
+</ul>
+</li>
+<li>New Command: /town outlawlist {town}
+<ul>
+<li>Requires no permission node to use.</li>
+<li>View outlaws of your town, or for other towns when the optional {town} is added to the command.</li>
+</ul>
+</li>
+<li>New Command: /towny war participants {page #}
+<ul>
+<li>Shows a list of towns and their nation who are in war events,</li>
+<li>List highlights enemies, allies and capital towns,</li>
+<li>Accepts page numbers for long lists.</li>
+</ul>
+</li>
+<li>New Command: /town unclaim outpost, courtesy of Articdive
+<ul>
+<li>Used to manually unclaim outposts, will enable a mayor to remove glitched outposts that were not automatically removed (mysql outpost bug)</li>
+</ul>
+</li>
+<li>New command: /town outpost list, courtesy of Articdive.
+<ul>
+<li>Permission node towny.command.town.outpost.list (Inherited from the towny.town.spawn.town node, no added permission required.)</li>
+<li>List out a town&#8217;s outposts, showing #, plot name (if it has one), world and coords.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Changes to Permission nodes:</strong></p>
+<ul>
+<li>None</li>
+</ul>
+<p><strong>New Permission Nodes:</strong></p>
+<ul>
+<li>New Permission Node: towny.command.town.plots
+<ul>
+<li>Used for /town plots {townname}</li>
+</ul>
+</li>
+<li>New Permission Node: towny.outlaw.jailer
+<ul>
+<li>Required to cause outlaws killed in your town to be sent to your jail.</li>
+<li>Newly made Townyperms.yml files will have this node given to mayors, assistants and sheriffs by default.
+<ul>
+<li>Add this node to those ranks to properly make use of the isJailingAttackingOutlaws.</li>
+<li>Add it to the default town rank if you want anyone in town to be able to jail outlaws killed in town.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>New permission node: towny.command.town.othertown
+<ul>
+<li>Used to disallow players from checking towns they do not belong to, using /town {name}</li>
+<li>Defaults to true.</li>
+</ul>
+</li>
+<li>New permission node: towny.command.resident.otherresident
+<ul>
+<li>Used to disallow players from checking other residents, using /res {name}</li>
+<li>Defaults to true.</li>
+</ul>
+</li>
+<li>New permission node: towny.command.nation.othernation
+<ul>
+<li>Used to disallow players from checking nations they do not belong to, using /nation {name}</li>
+<li>Defaults to true.</li>
+</ul>
+</li>
+<li>New permission node: towny.command.townyadmin.town.spawn &#8211; courtesy of Articdive
+<ul>
+<li>A child node of towny.admin</li>
+<li>Give this to allow a mod or someone of high rank on the server to be able to teleport to any town&#8217;s spawn.</li>
+</ul>
+</li>
+<li>New permission node: towny.command.townyadmin.town.spawn.freecharge &#8211; courtesy of Articdive
+<ul>
+<li>A child node of towny.admin</li>
+<li>Give this to make spawning to towns free for the person teleporting.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Config.yml Changes:</strong></p>
+<ul>
+<li>Config Change: war.event.allow_block_griefing is now false by default, this setting should not be used unless the server wants the most chaotic war possible.</li>
+<li>New Config options: war.event.costs_townblocks,
+<ul>
+<li>default: false</li>
+<li>Setting to true causes bonus townblocks to be traded between winning and losing towns during war. Used to be always on, not configurable. See config&#8217;s comments for more details.</li>
+</ul>
+</li>
+<li>New Config option: Notification.Using_Titles
+<ul>
+<li>Defaults to false</li>
+<li>When set to true when players cross into a Town they will see one of the new subtitles added to MC recently, broadcasting the town name.</li>
+</ul>
+</li>
+<li>New Config Option: Minimum Town tax.
+<ul>
+<li>Found in the config at town.default_taxes.minimumtax</li>
+<li>Default: 0.0</li>
+<li>Sets the minimum tax required when mayors use the /t set taxes command. Affects both taxpercent/nontaxpercent situations.</li>
+<li>Will not change any taxes already set by mayors.</li>
+</ul>
+</li>
+<li>New Config Option: plugin.database.sql.ssl
+<ul>
+<li>Defaults to false.</li>
+<li>Adapts to Spigot&#8217;s recommendation that MySQL databases use SSL.</li>
+</ul>
+</li>
+<li>New Config Option: Nation&#8217;s require towns to be within X townblocks.
+<ul>
+<li>Found in the config at global_town_settings.nation_requires_proximity</li>
+<li>Default: 0.0</li>
+<li>If greater than zero, towns must have their homeblock within that many or less townblocks from the nation&#8217;s capital&#8217;s homeblock to join.</li>
+<li>If greater than zero, towns must have their homeblocks in the same world as the nation to join.</li>
+<li>Also checked when a town moves their homeblock.</li>
+</ul>
+</li>
+<li>New Config Option: town.max_claim_radius_value
+<ul>
+<li>default: 4</li>
+<li>maximum number used in /town claim/unclaim # commands.</li>
+<li>set to 0 to disable limiting of claim radius value check.</li>
+<li>keep in mind that the default value of 4 is a radius, and it will allow claiming 9&#215;9 (80 plots) at once.</li>
+</ul>
+</li>
+<li>New Config Option: global_town_settings.max_residents_per_town
+<ul>
+<li>default: 0</li>
+<li>The maximum number of residents that can be joined to a town. Setting to 0 disables this feature.</li>
+<li>Will not remove residents from towns that are already over the maximum. The town will not be able to add new residents until they go below the cap.</li>
+</ul>
+</li>
+<li>New Config Option: global_town_settings.outsiders_prevent_pvp_toggle &#8211; courtesy of Articdive
+<ul>
+<li>default: false</li>
+<li>If set to true, Towny will prevent a town from toggling PVP while an outsider is within the town&#8217;s boundaries.</li>
+<li>When active this feature can cause a bit of lag when the /t toggle pvp command is used, depending on how many players are online.</li>
+</ul>
+</li>
+<li>New Config Option: global_town_settings.display_board_onlogin &#8211; courtesy of Articdive
+<ul>
+<li>default: true</li>
+<li>If Towny should show players the townboard when they login.</li>
+</ul>
+</li>
+<li>New Config Option: economy.daily_taxes.town_plotbased_upkeep_affected_by_town_level_modifier
+<ul>
+<li>default: false</li>
+<li>If set to true, the plot-based-upkeep system will be modified by the Town Levels&#8217; upkeep modifiers.</li>
+</ul>
+</li>
+<li>New Config Option: plugin.interfacing.using_questioner.cooldowntime
+<ul>
+<li>default: 0m</li>
+<li>When set for more than 0m, the amount of time (in minutes) which must have passed between a player&#8217;s first log in and when they can be invited to a town.</li>
+</ul>
+</li>
+<li>New Config Option: global_town_settings.minimum_amount_of_residents_in_town_for_outpost &#8211; courtesy of Articdive
+<ul>
+<li>Default: 0</li>
+<li>The amount of residents a town needs to claim an outpost.</li>
+<li>Setting this value to 0, means a town can claim outposts no matter how many residents they have.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Added:</strong></p>
+<ul>
+<li><strong>Event War Overhaul:</strong>
+<ul>
+<li>Fix defenders harming their own plots when plot-healing is not turned on.</li>
+<li>Fix neutral/nationless players from interfering in war events.</li>
+<li>Fix pvp to obey the towns_are_neutral flag in the war config.</li>
+<li>Fix default spoils of war set in the config not populating into the towny-war-chest at the beginning of war.</li>
+<li>Fix allies from causing harm to each other, requires friendly_fire to be false.</li>
+<li>Fix griefing of non-town and neutral players during war.</li>
+<li>Add support for Flag War&#8217;s Editable_materials list from Flag War to work in Event War. Leave allow_block_griefing false and instead use the WarzoneBlockPermissions section of the config, which will take precendence.</li>
+<li>Add support for Flag War&#8217;s Switch support to Event War. Setting the Switch: true in the WarzoneBlockPermissions will cause switches to be used by players involved in the war.</li>
+<li>Add support for Flag War&#8217;s Item_use support to Event War. Setting the item_use: true in the WarzoneBlockPermissions will cause item_use to be allowed for players involved in the war.</li>
+<li>Add support for Flag War&#8217;s Fire option to Event War. Setting the fire: true in the WarzoneBlockPermissions will cause fires to spread in townblocks involved in the war.</li>
+<li>Add support for Flag War&#8217;s Explosion option to Event War. Setting the explosion: true in the WarzoneBlockPermissions will cause explosions to happen in townblocks involved in the war.</li>
+<li>Complete the regeneration of blocks from explosions feature first thought up by Shade (original author of Towny and creator of the Flag War system)
+<ul>
+<li>Blocks that are not part of the new explosion-ignore-list in the WarzoneBlockPermissions will explode if explosions are set to true, and will regenerate after the world&#8217;s regeneration time.</li>
+</ul>
+</li>
+<li>Jailed players who are trapped in a town jail which has been won during war will be unjailed.</li>
+<li>Jailed players will be exempt of the WarzoneBlockPermissions EditableMaterials, Item_use and Switch options.</li>
+<li>Jails will be gone through in order, if a jail has fallen during the war it will not be used any more to jail enemies.</li>
+<li>Config Change: war.event.allow_block_griefing is now false by default, this setting should not be used unless the server wants the most chaotic war possible.</li>
+<li>New Config options: war.event.costs_townblocks, set to false by default. Setting to true causes bonus townblocks to be traded between winning and losing towns during war. Used to be always on, not configurable. See config&#8217;s comments for more details.</li>
+<li>Fix towns that have been knocked out of the war from being able to interfere in it any further.</li>
+<li>Fix dead players being able to defend/attack plots.</li>
+<li>Add information to explain if it is a homeblock that is under attack.</li>
+<li>New Command: /towny war participants {page #}</li>
+<li>Fix NPE caused by fire in the wilderness during wartime.</li>
+<li>Fix handling of dispensers firing arrows during wartime.
+<ul>
+<li>Dispensers in neutral lands will not harm people during wartime.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Outlaw System</strong>
+<ul>
+<li>Uses the /town outlaw [add/remove] [name] command.</li>
+<li>Requires permission node towny.command.town.outlaw</li>
+<li>Outlaws can be any player.</li>
+<li>They do not need to be a member of a nation or a town.</li>
+<li>If you outlaw a member of your town, they are automatically kicked from the town.</li>
+<li>Open towns can declare people outlaws to keep them from rejoining.</li>
+<li>Players are given a message warning them when they enter a town where they are considered outlaws.</li>
+<li>When you kill an outlaw in your town, they are sent to your jail if you have a jail
+<ul>
+<li>Requires jail.is_jailing_attacking_outlaws set to be true in your config.yml</li>
+<li>Also requires the towny.outlaw.jailer permission node.</li>
+<li>Outlaws can escape from jail in the usual ways:
+<ul>
+<li>Pay bail, escape into the wilderness, being let go via /t toggle jail command.</li>
+<li>Outlaws are not freed by using /t leave.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Add new resident Mode &#8220;ignoreplots&#8221;
+<ul>
+<li>When toggled or set using &#8216;/res set mode ignoreplots&#8217; or &#8216;/res toggle ignoreplots&#8217; players will not see plot notifications in town.</li>
+<li>This includes plot owners&#8217; names, homeblock, outpost, forsale, plottypes and plotnames.</li>
+<li>It does not include PVP notifications, town border notifications.</li>
+</ul>
+</li>
+<li>Add new resident Mode &#8220;constantplotborder&#8221;
+<ul>
+<li>When toggled or set using &#8216;/res set mode constantplotborder&#8217; or &#8216;/res toggle constantplotborder&#8217; the player will see plot borders appear every 5 seconds</li>
+</ul>
+</li>
+<li>Language files!
+<ul>
+<li>55+ previously untranslateable messages now part of the language files.</li>
+<li>Your language file should update by itself to version 0.36.</li>
+<li>If it does not, delete your language file and Towny will add the newest version available.</li>
+<li>FileMgmt.java now like utf-8 more than us-ascii. Language files with special non-english characters will be much happier.</li>
+<li>Noiknez &#038; TheCalypso updated the french.yml.</li>
+<li>Spanish.yml updated to 0.33 by Beelzebu and SeDark.</li>
+<li>Italian translation courtesy of Leomixer17.</li>
+<li>Russian translation courtesy of Communar.</li>
+<li>Norwegian translation courtesy of Nectuz &#038; Walbern.</li>
+<li>Improved german translation from Wolf2323.</li>
+</ul>
+</li>
+<li>Towny API additions:
+<ul>
+<li>Added DeletePlayerEvent courtesy of Articdive.</li>
+<li>TownTagChangeEvent &#038; NationTagChangeEvent courtesy of Articdive.</li>
+<li>PlotChangeType &#038; PlotChangeOwner Events courtesy of Articdive.</li>
+<li>Towns and Nations now have UUIDs, courtesy of Articdive</li>
+<li>PlayerEnterTownEvent &#038; PlayerLeaveTownEvent courtesy of Articdive.</li>
+<li>New API methods: resident.isAlliedWith(resident), town.isAlliedWith(town), nation.isAlliedWith(nation) courtesy of Articdive.</li>
+</ul>
+</li>
+<li>The /town list and /nation list commands will now paginate and accept page numbers, courtesy of WolfLeader116.</li>
+<li>Removes the [PLAYER_COMMAND] spam from Towny commands from the log. Courtesy of BillyGalbreath.</li>
+<li>Add note to players wanting to delete their town which clarifies that the money in their Town Bank will be removed.</li>
+<li>Added newish doors and fence types to default switch list. (Why doesn&#8217;t anyone report something simple like this?)</li>
+<li>Added new options to TownyMessaging to handle Minecraft&#8217;s Title and Subtitle messages.</li>
+<li>Add support for town and nation names following the /t online and /n online commands.
+<ul>
+<li>Ex: Doing /t online townname will show visible residents who are currenly online.</li>
+</ul>
+</li>
+<li>Add error messages when a player doesn&#8217;t use &#8216;/town set perm&#8217; or &#8216;/plot set perm&#8217; correctly.</li>
+<li>Add /plot set perm ?</li>
+<li>Add more detail to messages shown in log when Towny enters safe mode. </li>
+<li>Improve message sent to players who try to start new Towns while their economy plugin is non-functional.</li>
+<li>Improve message at startup when vault is not found.</li>
+<li>Updated SQL_Schema to handle newly added sql columns in a much better way, courtesy of Articdive.</li>
+<li>Moved /res name, /t name, /n name commands to async tasks.
+<ul>
+<li>Should reduce lag on large servers, and servers using slow economy plugins.</li>
+</ul>
+</li>
+<li>Town and Nations now keep a track of when they were founded, courtesy of Articdive.
+<ul>
+<li>Towns and Nations created before this feature will show no founded dates in the /town and /nation screens.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Bug Fixes!</strong></p>
+<ul>
+<li>Disabled /plot command in worlds where Towny is disabled.</li>
+<li>Handle CHORUS_FRUIT teleports and ties them to whether a player has permission to ITEM_USE on the plot they would teleport to.</li>
+<li>Have removeTownblock fire an TownUnclaimEvent.</li>
+<li>Fix mundane edge-case scenario where leaving a town that has no nation triggers an error.</li>
+<li>Fix jailed players being able to use commands to get out of jail.</li>
+<li>Fix revert on unclaim speed not being respected. This setting will now require you to set it in the config in the New World Settings section. It is sadly not something that can be configured per-world.</li>
+<li>Fix deathpayments when Closed_Economy is enabled.</li>
+<li>Fix problem with outposts being set-able in outposts not belonging to the person sending the command.</li>
+<li>Fix Bug with Farm plots not handling switch permissions correctly.</li>
+<li>Fix lighting portals in the wilderness when fire is disabled in that world&#8217;s wilderness.</li>
+<li>Fix /t toggle jail command not behaving according to the Towny config &#8216;teleport_warmup_time&#8217;</li>
+<li>Fix mayors of other towns not paying plottax in any town, (ie: in embassies in towns they don&#8217;t own.)</li>
+<li>Fix players who are in Town or Nation chat when their town is removed ending up in chat limbo.</li>
+<li>Purchasing townblocks using /t bonus buy will now round itself to solid numbers.
+<ul>
+<li>This fixes a bug when using an increasing price for buying bonus townblocks, which manifested in many decimal places being factored into the cost.</li>
+</ul>
+</li>
+<li>Fix NPE caused by fire in the wilderness.</li>
+<li>Fix message not showing when a town is removed from a nation for not having enough residents.</li>
+<li>Fix minimum # of residents required in a town to join a nation not being checked where it counts.</li>
+<li>Fix rare occurance of newly made worlds having an SQL error.</li>
+<li>Remove leading space on the &#8220;(PVP)&#8221; chunk notification, to match the the no-pvp-message. Thanks for pointing this out Locknlol</li>
+<li>Fix for servers that do not allow wilderness full build/destroy permissions, where animals could not be killed in the wilderness with arrows.</li>
+<li>Fix a typo in the CombatUtil, which clarifies which block&#8217;s destroy permissions we are testing to determine whether animals can be killed.</li>
+<li>Change to permission calculation, should properly choose a player&#8217;s group based on weighted priorities included in some permission plugins such as LuckPerms.</li>
+<li>Change our testing of whether Citizens2 is present to account for the plugin failing to enable.</li>
+<li>Fix for mysql databases where the removal of a town&#8217;s only outpost would not be removed.</li>
+<li>Fix an occaision where explosions in the wilderness can cause an NPE.</li>
+<li>Fix &#8216;Format specifier &#8220;%s&#8221;&#8216; error seen when attempting to add a town to you nation that doesn&#8217;t have the config&#8217;s required_number_residents_join_nation.</li>
+<li>Courtesy of Articdive: A fix for mysql database users and erroneous outpostspawns.
+<ul>
+<li>Databases will be checked for outposts listed in each town, outpostspawns in townblocks that are not claimed anymore by the town will be removed.</li>
+<li>The underlying bug, one where isOutpost was not recording properly, has been fixed.</li>
+<li>The check will only run once and then create an outpostschecked.txt file.</li>
+<li>If you feel the need to run the check a second time, delete the outpostschecked.txt and start your server.</li>
+<li>New Command: /town unclaim outpost, courtesy of Articdive
+<ul>
+<li>Used to manually unclaim outposts, will enable a mayor to remove glitched outposts that were not automatically removed (mysql outpost bug)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fix /town mayor page erroneously showing /town jail as a command.</li>
+<li>Fix for non-entity deaths not charging death costs.</li>
+<li>Fix adding towns to your nation when the town is in another world, when nation-proximity is set to 0.</li>
+<li>Fix rank issue for nations.</li>
+<li>Fix bug in reverting double chests.</li>
+<li>Fix bizarre bug with WildernessExplosionReverting causing cocoa beans to create blocks of dirt.</li>
+<li>Partial fix for WildernessExplosionReverting duping items when they&#8217;re torches/levers/pressureplates/attachables.</li>
+</ul>
+<p><strong>TownyChat Changes:</strong></p>
+<ul>
+<li>Add support for new chat tags in TownyChat
+<ul>
+<li>Add new chatconfig tags {permuserprefix}, {permusersuffix}, used to show only user prefix and suffixes.</li>
+<li>Add new chatconfig tags {permgroupprefix}, {permgroupsuffix}, used to show only group prefix and suffixes.</li>
+</ul>
+</li>
+</ul>
+<p><a title="Towny Changelog" href="http://towny.palmergames.com/towny/townychangelog/" target="_blank" rel="noopener">Click Here for a full changelog</a></p>
+<div class='w3eden'><!-- WPDM Link Template: Default Template -->
+
+
+<div class="wpdm-link-tpl link-btn [color]" data-durl="http://towny.palmergames.com/download/towny-advanced-0-92-0-0-cbspigot-1-11-1-12-2/?wpdmdl=1074" >
+    <div class="media">
+        <div class="pull-left"><img class="wpdm_icon" alt="Icon"   src="http://towny.palmergames.com/wp-content/uploads/2015/09/file_extension_zip.png" /></div>
+        <div class="media-body"><strong class="ptitle">Towny Advanced 0.92.0.0 [CB/Spigot 1.11-1.12.2] <span class="label label-default" style="font-weight: 400;">883.28 KB</span></strong>
+            <div><strong><a class='wpdm-download-link wpdm-download-locked [btnclass]' rel='nofollow' href='#' onclick="location.href='http://towny.palmergames.com/download/towny-advanced-0-92-0-0-cbspigot-1-11-1-12-2/?wpdmdl=1074';return false;">Download</a></strong></div>
+        </div>
+    </div>
+</div>
+<div style="clear: both"></div>
+</div>
+<blockquote><p><a title="Install Guide" href="http://towny.palmergames.com/towny/towny-install-guide/">Towny Install Guide</a><br />
+<a title="Permission Nodes" href="http://towny.palmergames.com/towny/towny-permission-nodes/">Towny Permission Nodes</a><br />
+<a title="How Towny Works" href="http://towny.palmergames.com/towny/757-2/">How Towny Works</a></p></blockquote>
+							<div class="clear"></div>
+						</div><!-- .entry-content -->
+						<footer class="entry-utility">
+																							<div class="social-bookmarks">
+			<p>Did you like this article? Share it with your friends!</p>
+							<div class="facebook-like">
+					<div id="fb-root"></div>
+					<script>
+						(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
+					</script>
+					<div class="fb-like" data-href="http://towny.palmergames.com/release-version-towny-advanced-0-92-0-0-1-11-1-12-2/" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
+				</div><!-- .facebook-like -->
+										<div class="twitter-button">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://towny.palmergames.com/release-version-towny-advanced-0-92-0-0-1-11-1-12-2/">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div><!-- .twitter-button -->
+										<div class="google-plusone">
+					<div class="g-plusone" data-size="medium" data-href="http://towny.palmergames.com/release-version-towny-advanced-0-92-0-0-1-11-1-12-2/"></div>
+					<script type="text/javascript">
+						(function() {
+							var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+							po.src = 'https://apis.google.com/js/plusone.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+						})();
+					</script>
+				</div><!-- .google-plusone -->
+										<div class="pinterest-button">
+					<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Ftowny.palmergames.com%2Frelease-version-towny-advanced-0-92-0-0-1-11-1-12-2%2F&#038;media=http%3A%2F%2Ftowny.palmergames.com%2Fwp-content%2Fuploads%2F2015%2F09%2Ffile_extension_zip.png&#038;description=%3Cp%3ETowny+Advanced+0.92.0.0+for+Minecraft+1.11-1.12+servers+Contains%3A+Towny+0.92.0.0+TownyChat+0.49+TownyNameUpdater+1.0+Questioner+0.6+New+in+Towny+0.92.0.0+Required+Config+changes+for+existing+installs%3A+under+town_mob_removal_entities%3A+add+SkeletonHorse%2CZombieHorse%2C+they+are+not+considered+Monsters+and+if+you+want+dont+them+spawning+or+walking+into+town+they+must+be+added+%26%238230%3B%3C%2Fp%3E" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+					<script>
+						(function(d, s, id) {
+							var js, pjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//assets.pinterest.com/js/pinit.js";
+							pjs.parentNode.insertBefore(js, pjs);
+						}(document, 'script', 'pinterest-js'));
+					</script>
+				</div>
+						<div class="clear"></div>
+		</div><!-- .social-bookmarks -->
+														</footer><!-- .entry-utility -->
+					</div><!-- .entry -->
+					
+
+				</article><!-- .post -->
+					</section><!-- #content -->
+					<div id="sidebar" class="column fourcol">
+		<div id="sidebar-top" class="widget-area" role="complementary">
+		<div class="column onecol"><aside id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">Downloads</h3><div class="menu-downloads-container"><ul id="menu-downloads" class="menu"><li id="menu-item-498" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-498"><a href="http://towny.palmergames.com/category/towny-download/towny-release-download/">Towny Release Downloads</a></li>
+<li id="menu-item-499" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-499"><a href="http://towny.palmergames.com/category/towny-download/towny-dev-build/">Towny Dev Build Downloads</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="http://towny.palmergames.com/file-repo">File Repo (Old Versions + Dev Builds)</a></li>
+</ul></div></aside><!-- .widget --></div>        <div class="column onecol"><aside id="wpdm_newpacks_widget-2" class="widget widget_wpdm_newpacks_widget">        <h3 class="widget-title">Latest Towny Releases</h3><div class='w3eden'><!-- WPDM Link Template: Default Template with Download Count -->
+
+
+<div class="wpdm-link-tpl link-btn [color]" data-durl="http://towny.palmergames.com/download/towny-advanced-0-92-0-0-cbspigot-1-8-5/?wpdmdl=1097" >
+    <div class="media">
+        <div class="pull-left"><img class="wpdm_icon" alt="Icon"   src="http://towny.palmergames.com/wp-content/uploads/2015/09/file_extension_zip.png" /></div>
+        <div class="media-body"><strong class="ptitle">Towny Advanced 0.92.0.0 [CB/Spigot 1.8.5] <span class="label label-default" style="font-weight: 400;">66 downloads</span>&nbsp;<span class="label label-default" style="font-weight: 400;">881.61 KB</span></strong>
+            <div><strong><a class='wpdm-download-link wpdm-download-locked [btnclass]' rel='nofollow' href='#' onclick="location.href='http://towny.palmergames.com/download/towny-advanced-0-92-0-0-cbspigot-1-8-5/?wpdmdl=1097';return false;">Download</a></strong></div>
+        </div>
+    </div>
+</div>
+<div style="clear: both"></div>
+<!-- WPDM Link Template: Default Template with Download Count -->
+
+
+<div class="wpdm-link-tpl link-btn [color]" data-durl="http://towny.palmergames.com/download/towny-advanced-0-92-0-0-cbspigot-1-9-4/?wpdmdl=1093" >
+    <div class="media">
+        <div class="pull-left"><img class="wpdm_icon" alt="Icon"   src="http://towny.palmergames.com/wp-content/uploads/2015/09/file_extension_zip.png" /></div>
+        <div class="media-body"><strong class="ptitle">Towny Advanced 0.92.0.0 [CB/Spigot 1.9.4] <span class="label label-default" style="font-weight: 400;">1 downloads</span>&nbsp;<span class="label label-default" style="font-weight: 400;">882.57 KB</span></strong>
+            <div><strong><a class='wpdm-download-link wpdm-download-locked [btnclass]' rel='nofollow' href='#' onclick="location.href='http://towny.palmergames.com/download/towny-advanced-0-92-0-0-cbspigot-1-9-4/?wpdmdl=1093';return false;">Download</a></strong></div>
+        </div>
+    </div>
+</div>
+<div style="clear: both"></div>
+<!-- WPDM Link Template: Default Template with Download Count -->
+
+
+<div class="wpdm-link-tpl link-btn [color]" data-durl="http://towny.palmergames.com/download/towny-advanced-0-92-0-0-cbspigot-1-10-2/?wpdmdl=1087" >
+    <div class="media">
+        <div class="pull-left"><img class="wpdm_icon" alt="Icon"   src="http://towny.palmergames.com/wp-content/uploads/2015/09/file_extension_zip.png" /></div>
+        <div class="media-body"><strong class="ptitle">Towny Advanced 0.92.0.0 [CB/Spigot 1.10.2] <span class="label label-default" style="font-weight: 400;">23 downloads</span>&nbsp;<span class="label label-default" style="font-weight: 400;">882.75 KB</span></strong>
+            <div><strong><a class='wpdm-download-link wpdm-download-locked [btnclass]' rel='nofollow' href='#' onclick="location.href='http://towny.palmergames.com/download/towny-advanced-0-92-0-0-cbspigot-1-10-2/?wpdmdl=1087';return false;">Download</a></strong></div>
+        </div>
+    </div>
+</div>
+<div style="clear: both"></div>
+</div></aside><!-- .widget --></div>		<div class="column onecol"><aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://towny.palmergames.com/dev-build-towny-advanced-0-92-0-1-1-11-2/">Dev Build: Towny Advanced 0.92.0.1 [1.11.2+]</a>
+							<span class="post-date">4th December 2017</span>
+						</li>
+					<li>
+				<a href="http://towny.palmergames.com/release-version-towny-advanced-0-92-0-0-1-8-5/">Release Version: Towny Advanced 0.92.0.0 [1.8.5]</a>
+							<span class="post-date">3rd December 2017</span>
+						</li>
+				</ul>
+		</aside><!-- .widget --></div>		<div class="column onecol"><aside id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widget-title">Changelogs</h3><div class="menu-changelogs-container"><ul id="menu-changelogs" class="menu"><li id="menu-item-692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a href="http://towny.palmergames.com/towny/townychangelog/">Towny Changelog</a></li>
+<li id="menu-item-693" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-693"><a href="http://towny.palmergames.com/towny/towny-chat-changelog/">Towny Chat Changelog</a></li>
+</ul></div></aside><!-- .widget --></div><div class="column onecol"><aside id="nav_menu-4" class="widget widget_nav_menu"><h3 class="widget-title">Wiki</h3><div class="menu-wikis-container"><ul id="menu-wikis" class="menu"><li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496"><a href="http://towny.palmergames.com/towny/towny-install-guide/">Towny Install Guide</a></li>
+<li id="menu-item-690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-690"><a href="http://towny.palmergames.com/towny/towny-upgrade-guide/">Towny Upgrade Guide</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="http://towny.palmergames.com/towny/757-2/">How Towny Works</a></li>
+<li id="menu-item-691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-691"><a href="http://towny.palmergames.com/towny/questioner/">Questioner</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75"><a href="http://code.google.com/a/eclipselabs.org/p/towny/wiki/Infographics">Helpful Infographics</a></li>
+<li id="menu-item-689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-689"><a href="http://towny.palmergames.com/towny/towny-commands/">Towny Commands</a></li>
+<li id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688"><a href="http://towny.palmergames.com/towny/towny-permission-nodes/">Towny Permission Nodes</a></li>
+</ul></div></aside><!-- .widget --></div><div class="column onecol"><aside id="nav_menu-5" class="widget widget_nav_menu"><h3 class="widget-title">Support</h3><div class="menu-support-container"><ul id="menu-support" class="menu"><li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a href="http://code.google.com/a/eclipselabs.org/p/towny/wiki/Troubleshooting">Troubleshooting</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="http://webchat.esper.net/?channels=towny">Join the Towny IRC</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="https://github.com/LlmDl/Towny/issues?q=is%3Aopen+is%3Aissue">Report an Issue</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a href="https://github.com/LlmDl/Towny/issues?q=is%3Aopen+is%3Aissue">Make a Suggestion</a></li>
+<li id="menu-item-500" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-500"><a href="http://townyplugin.reddit.com">Towny on Reddit</a></li>
+<li id="menu-item-979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-979"><a href="https://github.com/LlmDl/Towny/">Repository on GitHub</a></li>
+</ul></div></aside><!-- .widget --></div><div class="column onecol"><aside id="nav_menu-7" class="widget widget_nav_menu"><h3 class="widget-title">Dev Discussion</h3><div class="menu-dev-discussion-container"><ul id="menu-dev-discussion" class="menu"><li id="menu-item-1000" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1000"><a href="https://discord.gg/U6FA8CG">Towny on Discourse</a></li>
+</ul></div></aside><!-- .widget --></div><div class="column onecol"><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">RSS-friendly Categories</h3>		<ul>
+	<li class="cat-item cat-item-2"><a href="http://towny.palmergames.com/category/towny-download/" title="Catch-all category of Towny Downloads posts. You may RSS this category.">Towny Downloads</a> (131)
+<ul class='children'>
+	<li class="cat-item cat-item-6"><a href="http://towny.palmergames.com/category/towny-download/towny-dev-build/" title="Towny development builds, not release versions. Might have drastic changes, read the changelog carefully. You may RSS this category.">Towny Dev Build</a> (94)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://towny.palmergames.com/category/towny-download/towny-release-download/" title="Release versions of Towny, archive downloads which contain the entire Towny package of .jars. You may RSS this category.">Towny Release Download</a> (24)
+</li>
+	<li class="cat-item cat-item-4"><a href="http://towny.palmergames.com/category/towny-download/townychat-dev-build/" title="TownyChat development builds. Read changelog carefully. You may RSS this category.">TownyChat Dev Build</a> (13)
+</li>
+</ul>
+</li>
+		</ul>
+</aside><!-- .widget --></div><div class="column onecol"><aside id="text-2" class="widget widget_text"><h3 class="widget-title">FightCraft Minecraft Server</h3>			<div class="textwidget"><a title="FightCraft Minecraft Server" href="http://www.planetminecraft.com/server/fightcraft-2741237/">Try out the Official Towny Server:</a><a title="FightCraft Minecraft Server" href="http://www.planetminecraft.com/server/fightcraft-2741237/">
+<img alt="FightCraft" src="http://static.planetminecraft.com/files/resource_media/screenshot/1406/pmc-logo.jpg" border="0" />
+View FightCraft</a></div>
+		</aside><!-- .widget --></div><div class="column onecol"><aside id="nav_menu-6" class="widget widget_nav_menu"><h3 class="widget-title">Log In</h3><div class="menu-log-in-container"><ul id="menu-log-in" class="menu"><li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="http://palmergames.com/wp-login.php">Log in</a></li>
+</ul></div></aside><!-- .widget --></div>	</div><!-- #sidebar-top -->
+				<div id="sidebar-bottom" class="widget-area" role="complementary">
+		<div class="column onecol"><aside id="text-3" class="widget widget_text"><h3 class="widget-title">Donate to Towny:</h3>			<div class="textwidget"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8NKM55RWHMUG4"><img title="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" alt="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" /></a></div>
+		</aside><!-- .widget --></div>	</div><!-- #sidebar-bottom -->
+</div><!-- #sidebar -->			</div><!-- #container -->
+				<div id="footer">
+						<div id="copyright">
+				<p class="copyright twocol">&copy; 2017 Towny on Palmergames.com</p>
+									<p class="credits twocol">
+																															Powered by <a href="https://www.onedesigns.com/themes/pinboard" title="Pinboard Theme">Pinboard Theme</a> and <a href="https://wordpress.org/" title="WordPress">WordPress</a>											</p>
+								<div class="clear"></div>
+			</div><!-- #copyright -->
+		</div><!-- #footer -->
+	</div><!-- #wrapper -->
+<script type='text/javascript' src='http://towny.palmergames.com/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-GB","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions\/Subtitles":"Captions\/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up\/Down Arrow keys to increase or decrease volume.":"Use Up\/Down Arrow keys to increase or decrease volume.","Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds."}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.22.0'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.8.4'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-includes/js/comment-reply.min.js?ver=4.8.4'></script>
+<script type='text/javascript' src='http://towny.palmergames.com/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+</body>
+</html>
