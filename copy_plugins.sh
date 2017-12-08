@@ -1,0 +1,1 @@
+cp /minecraft-plugins/*.jar /data/plugins/
