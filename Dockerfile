@@ -21,4 +21,4 @@ WORKDIR /data
 
 ADD start-minecraft.sh /root/start-minecraft.sh
 ADD eula.txt /data/eula.txt
-ENTRYPOINT ["screen -S minecraft", "/root/start-minecraft.sh"]
+ENTRYPOINT ["/bin/bash", "/root/start-minecraft.sh"]
