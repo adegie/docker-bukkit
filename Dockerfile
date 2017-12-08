@@ -7,6 +7,8 @@ RUN mv /minecraft-workspace/craftbukkit-*.jar /minecraft
 RUN rm -rf /minecraft-workspace
 RUN apt-get -y update
 RUN apt-get -y install screen
+ADD gdrive-linux-x64 /bin/gdrive
+
 ADD download_plugins.sh /data/plugins/download_plugins.sh
 RUN cd /data/plugins && ./download_plugins.sh
 
