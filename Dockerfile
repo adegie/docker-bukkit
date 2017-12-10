@@ -12,9 +12,9 @@ ADD gdrive-linux-x64 /bin/gdrive
 ADD copy_plugins.sh /root/copy_plugins.sh
 
 ADD download_plugins.sh /minecraft-plugins/download_plugins.sh
-RUN cd /minecraft-plugins && ./download_plugins.sh
+# RUN cd /minecraft-plugins && ./download_plugins.sh #disabled for now, rellying on manual plugins
 
-ADD manual_plugins/towny.jar /minecraft-plugins/towny.jar
+ADD manual_plugins/*.jar /minecraft-plugins/
 
 EXPOSE 25565
 WORKDIR /data
